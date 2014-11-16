@@ -1,7 +1,8 @@
 #ifndef LOG_H
 #define LOG_H
 
-#include <linux/string.h>
+#include <linux/kernel.h> /* printk */
+#include <linux/string.h> /* kbasename */
 
 #define kdebug(fmt, ...)                  \
     printk(KERN_DEBUG "%s[%d]: %s: "fmt, \

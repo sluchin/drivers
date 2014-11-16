@@ -27,3 +27,9 @@
 *.i*86
 *.x86_64
 *.hex
+
+*.cmd
+.tmp_versions
+Module.symvers
+*.mod.c
+modules.order
